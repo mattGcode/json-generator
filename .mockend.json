@@ -1,14 +1,11 @@
-{
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
+{"resource":
+[
+
+{"id":1,"memberid":"john","pin":"111111","property":"M"}
+,
+{"id":2,"memberid":"jim","pin":"222222","property":"M"}
+,
+
+{"id":3,"memberid":"jeff","pin":"133333","property":"M"}
+]
 }
